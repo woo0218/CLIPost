@@ -29,14 +29,6 @@ public class Article {
         return title;
     }
 
-    public LocalDateTime getRegDate() {
-        return regDate;
-    }
-
-    public LocalDateTime getModDate() {
-        return modDate;
-    }
-
     public void setTitle(String title) {
         this.title = title;
     }
@@ -48,6 +40,28 @@ public class Article {
     public void setContent(String content) {
         this.content = content;
     }
+
+    public LocalDateTime getRegDate() {
+        return regDate;
+    }
+
+    public void setRegDate(LocalDateTime regDate) {
+        this.regDate = regDate;
+    }
+
+    public LocalDateTime getModDate() {
+        return modDate;
+    }
+
+    public void setModDate(LocalDateTime modDate) {
+        this.modDate = modDate;
+    }
+
+
+
+
+
+
 
 
 }
